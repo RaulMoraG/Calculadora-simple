@@ -14,81 +14,46 @@
 
 # finalmente le mostraremos el resultado
 
-
-# print("bienvenidos a la calculadora")
-# print("para salir escribe \"salir\"")
-# print("las operaciones son: suma, resta, multiplicacion, division")
-
-# resultado = ""
-
-# while True:
-#     if not resultado:
-#         resultado = input("ingrese numero: ")
-#         if resultado.lower() == "salir":
-#             break
-#         resultado = int(resultado)
-
-#     op = input("ingresa operacion: ")
-#     if op.lower() == "salir":
-#         break
-#     n2 = input("ingresa siguiente numero: ")
-#     if n2.lower() == "salir":
-#         break
-#     n2 = int(n2)
-
-#     if op.lower() == "suma":
-#         resultado += n2
-#     elif op.lower() == "resta":
-#         resultado -= n2
-#     elif op.lower() == "multiplicaicon":
-#         resultado *= n2
-#     elif op.lower() == "divison":
-#         resultado /= n2
-#     else:
-#         print("operacion no valida")
-#         break
-
-#     print(f"el resultado es {resultado}")
-
-
 # ---------------------------------------------------------------------------------------------------------------
+#premiere vesion
 
-# print("hola soy una calculadora")
-# print("puedo: SUMAR, RESTAR, MULTIPLICAR, DIVIDIR")
-# print("para terminar escribe: salir")
+print("hola soy una calculadora")
+print("puedo: SUMAR, RESTAR, MULTIPLICAR, DIVIDIR")
+print("para terminar escribe: salir")
 
-# resultado = ""
+resultado = ""
 
 
-# while True:
-#     if not resultado:
-#         resultado = input("escribe un numero: ")
-#         if resultado.lower() == "salir":
-#             break
-#         if resultado != 0:
-#             resultado = int(resultado)
+while True:
+    if not resultado:
+        resultado = input("escribe un numero: ")
+        if resultado.lower() == "salir":
+            break
+        if resultado != 0:
+            resultado = int(resultado)
 
-#     operacion = input("ingresa una operacion: ")
-#     if operacion.lower() == "salir":
-#         break
+    operacion = input("ingresa una operacion: ")
+    if operacion.lower() == "salir":
+        break
 
-#     numero_2 = input("ingresa un numero: ")
-#     if numero_2.lower() == "salir":
-#         break
-#     numero_2 = int(numero_2)
+    numero_2 = input("ingresa un numero: ")
+    if numero_2.lower() == "salir":
+        break
+    numero_2 = int(numero_2)
 
-#     if operacion.lower() == "suma":
-#         resultado = resultado + numero_2
-#     if operacion.lower() == "resta":
-#         resultado = resultado - numero_2
-#     if operacion.lower() == "multiplicacion":
-#         resultado = resultado * numero_2
-#     if operacion.lower() == "division":
-#         resultado = resultado / numero_2
+    if operacion.lower() == "suma":
+        resultado = resultado + numero_2
+    if operacion.lower() == "resta":
+        resultado = resultado - numero_2
+    if operacion.lower() == "multiplicacion":
+        resultado = resultado * numero_2
+    if operacion.lower() == "division":
+        resultado = resultado / numero_2
 
-#     print(f"tu resultado es {resultado}")
+    print(f"tu resultado es {resultado}")
 
 # -----------------------------------------------------------------------------------------------------------------------
+#deuxieme version 
 print("**********************************************************************************")
 print("**********************************************************************************")
 print("***************       HOLA SOY UNA CALCULADORA             ************************")
